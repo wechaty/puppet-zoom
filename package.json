@@ -1,0 +1,48 @@
+{
+  "name": "wechaty-puppet-zoom",
+  "version": "0.0.1",
+  "description": "Zoom Puppet for Wechaty",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src",
+    "start": "node --enable-source-maps ./dist/t.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechaty/puppet-zoom.git"
+  },
+  "keywords": [
+    "wechaty",
+    "puppet",
+    "zoom",
+    "meeting"
+  ],
+  "author": "Huan Li <huan@chatie.io>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wechaty/puppet-zoom/issues"
+  },
+  "homepage": "https://github.com/wechaty/puppet-zoom#readme",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.56.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tsx": "^4.20.6",
+    "vitest": "^4.0.9",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.9.3"
+  }
+}

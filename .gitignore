@@ -1,3 +1,8 @@
+node_modules/
+dist/
+/*.log
+.DS_Store
+coverage/
 # Logs
 logs
 *.log
@@ -137,3 +142,5 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+package-lock.json
